@@ -1,0 +1,88 @@
+.meal-detail-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.meal-detail-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.meal-image {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.meal-info h1 {
+  margin-bottom: 12px;
+}
+
+.description {
+  margin-bottom: 24px;
+  color: #4b5563;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.tag {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+.tag.green {
+  background: #e6f4ea;
+  color: #2e7d32;
+}
+
+.tag.red {
+  background: #fdecea;
+  color: #c62828;
+}
+
+.reserve-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 999px;
+  background: #5b6f4a;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.reserve-btn:hover {
+  background: #4a5c3e;
+}
+
+.reserved-msg,
+.owner-msg {
+  text-align: center;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+@media (max-width: 900px) {
+  .meal-detail-card {
+    grid-template-columns: 1fr;
+  }
+}

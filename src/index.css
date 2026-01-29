@@ -1,0 +1,42 @@
+/* =====================
+   GLOBAL RESET
+   ===================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  background-color: #f7f6f3;
+  color: #2f3a2f;
+  line-height: 1.5;
+  overflow-y: scroll;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Page container */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 20px;
+}

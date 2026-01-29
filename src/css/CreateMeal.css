@@ -1,0 +1,130 @@
+/* ===== PAGE ===== */
+.create-meal-page {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  overflow-x: hidden;
+}
+
+/* ===== CARD ===== */
+.create-meal-card {
+  background: white;
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== HEADER ===== */
+.create-meal-card h1 {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 32px;
+}
+
+/* ===== FORM ===== */
+label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* ===== MAP ===== */
+.map-preview {
+  width: 100%;
+  height: 200px;
+  border: 0;
+  border-radius: 14px;
+  margin: 16px 0 24px;
+}
+
+/* ===== IMAGE ===== */
+.preview {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+/* ===== CHECKBOXES AS PILLS ===== */
+.checkbox-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.checkbox-group label {
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox-group input {
+  display: none;
+}
+
+.checkbox-group span {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  border: 1px solid #d1d5db;
+  color: #374151;
+  transition: all 0.2s ease;
+}
+
+.checkbox-group input:checked + span {
+  background: #e6f4ea;
+  border-color: #5b6f4a;
+  color: #2f5d3a;
+  font-weight: 600;
+}
+
+/* ===== BUTTON ===== */
+.submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px;
+  border-radius: 999px;
+  border: none;
+  background-color: #5b6f4a;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #4a5c3b;
+}
